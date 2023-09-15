@@ -29,7 +29,7 @@
             android:padding="5dp"
             android:text="Course Name "
             android:textColor="@color/black"
-            android:textSize="18sp"
+            android:textSize="15sp"
             android:textStyle="bold" />
 
 
@@ -37,6 +37,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
+                <TextView
+                    android:layout_width="107dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:text="Price:"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/name1"
@@ -51,6 +59,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
+                <TextView
+                    android:layout_width="186dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:text="Description:"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/name2"
@@ -65,7 +81,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-
+                <TextView
+                    android:layout_width="154dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:text="Category:"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
             <TextView
                 android:id="@+id/name3"
                 android:layout_width="match_parent"
